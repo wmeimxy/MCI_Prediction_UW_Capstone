@@ -1,1 +1,7 @@
-# MCI_Prediction_UW_Capstone
+# Piloting a Machine Learning Algorithm to Predict Cognitive Impairment in Outpatient Clinical Visits at UW Medicine
+University of Washington, Master of Science Capstone Project <br>
+Team members: Yunge Li, Winnie Mei, Raylynn Zhou <br>
+
+### Abstract
+Early detection of mild cognitive impairment (MCI) helps identify the risk of dementia including Alzheimer’s disease (AD), resulting in improved patient outcomes and reduction in healthcare costs. This project aimed to develop machine learning (ML) models to predict MCI using electronic health records (EHR) from UW Medicine (UWM). A 1:2 case-control matched study was conducted on 7040 cases and 14,080 controls. Three prediction windows (1 year, 3 years, and 5 years) were analyzed to assess the prediction model. For each prediction window, four ML models were developed using LASSO logistic regression, random forest, gradient boosting, and support vector machine. The LASSO model obtained the best AUC and precision overall, which are 0.76 and 0.57 respectively in 1 year prediction window. A smaller prediction window gave a better prediction of MCI. The most influential predictors for the LASSO model are ​​Hydrocephalus, mental disorder due to brain damage/dysfunction, and symptoms involving awareness. These models suggested an optimistic direction in employing ML methods for MCI prediction. More methods can be explored to further improve the model, including generating data with higher quality and applying more advanced ML techniques.
+
